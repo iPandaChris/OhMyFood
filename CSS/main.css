@@ -494,11 +494,6 @@ body {
   -webkit-transition: all 0.55s;
 }
 
-.restaurants-listing .restaurants-new-box:hover {
-  transition: 4s;
-  transform: rotate(360deg);
-}
-
 .menu-item-container:hover .fa-check {
   transition: 0.5s;
   transform: rotate(360deg);
