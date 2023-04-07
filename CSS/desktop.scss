@@ -1,0 +1,69 @@
+@import"__root";
+@import"__animation";
+
+@media screen and (min-width:1024px){
+    .how-works-cont{
+        display: flex;
+        flex-direction:row;
+        margin: 0rem .7rem 0rem 1.5rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .menu-cont{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .restaurants-cont{
+        display: grid;
+        grid-template-columns: 298px 333px 350px 333px;
+        background: #f2f2f2;
+        padding-bottom: 3rem;
+        justify-content: center;
+    }
+
+    .resturant-title{
+        margin-top:36px;
+    }
+
+    .restaurants-listing{
+        flex-direction: row;
+        background: #f2f2f2;
+        box-shadow: 0 3px 20px -4px black;
+        border-radius: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        color: black;
+        min-width: 15%;
+        margin: 0rem 1.3rem 1.3rem 1.3rem;
+    }
+
+    .how-works-button-pink{
+        display: flex;
+        width: 95%;
+        height: 72px;
+        border: none;
+        background: #f5edff;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        box-shadow: 3px 20px -9px;
+        align-items: center;
+        margin: 0.29rem .2rem 0;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .order-button{
+        padding: 1rem 1.7rem;
+        margin: .4rem 26.3rem .4rem;
+        color: white;
+        background:linear-gradient($primary-color,$secondary-color);
+        border: none;
+       border-radius: 50px;
+        cursor: pointer;
+        
+    }
+    
+}
