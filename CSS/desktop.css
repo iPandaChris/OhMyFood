@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.loading-anime {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 1;
+    z-index: 100;
+  }
+  90% {
+    opacity: 1;
+    z-index: 100;
+  }
+  100% {
+    opacity: 0;
+    z-index: -100;
+  }
+}
+.screen-block {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  background: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+  animation: animation 3s forwards;
+}
+
+.loading-anime-bars {
+  width: 7px;
+  height: 0px;
+  background: #9356DC;
+  margin: 0 4px;
+  animation: loading 1.5s infinite;
+  box-shadow: 0px 0px 0px 1px 2px #99E2D0;
+}
+
+.loading-anime-bars:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.loading-anime-bars:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.loading-anime-bars:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.loading-anime-bars:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.loading-anime-bars:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.loading-anime-bars:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+.loading-anime-bars:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+@keyframes loading {
+  0% {
+    height: 0%;
+  }
+  50% {
+    background-color: #FF79DA;
+    height: 40px;
+  }
+  100% {
+    background-color: #99E2D0;
+    height: 0;
+  }
+}
+.restaurants-new-box {
+  position: absolute;
+  right: 0;
+  top: auto;
+  margin: -10rem 1.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8rem;
+  width: 5rem;
+  font-size: 14px;
+  font-weight: 500;
+  color: #139273;
+  border-radius: 2px;
+  background: #99E2D0;
+}
+
+@media screen and (min-width: 1024px) {
+  .how-works-cont {
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 0.7rem 0rem 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .menu-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurants-cont {
+    display: grid;
+    grid-template-columns: 298px 333px 350px 333px;
+    background: #f2f2f2;
+    padding-bottom: 3rem;
+    justify-content: center;
+  }
+  .resturant-title {
+    margin-top: 36px;
+  }
+  .restaurants-listing {
+    flex-direction: row;
+    background: #f2f2f2;
+    box-shadow: 0 3px 20px -4px black;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    min-width: 15%;
+    margin: 0rem 1.3rem 1.3rem 1.3rem;
+  }
+  .how-works-button-pink {
+    display: flex;
+    width: 95%;
+    height: 72px;
+    border: none;
+    background: #f5edff;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 3px 20px -9px;
+    align-items: center;
+    margin: 0.29rem 0.2rem 0;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .order-button {
+    padding: 1rem 1.7rem;
+    margin: 0.4rem 26.3rem 0.4rem;
+    color: white;
+    background: linear-gradient(#9356DC, #FF79DA);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=desktop.css.map */
