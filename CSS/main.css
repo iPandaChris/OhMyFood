@@ -51,7 +51,7 @@ body {
   background: #9356DC;
   margin: 0 4px;
   animation: loading 1.5s infinite;
-  box-shadow: 0px 0px 0px 1px 2px #99E2D0;
+  box-shadow: 0px 0px 0px 1px 5px #99E2D0;
 }
 
 .loading-anime-bars:nth-child(2) {
@@ -116,7 +116,7 @@ body {
   padding: 0.95rem;
   background-color: white;
   position: relative;
-  box-shadow: 3px 10px -6px;
+  box-shadow: 3px 10px -5px;
 }
 
 .fa-sharp-arrow-left {
@@ -238,7 +238,7 @@ body {
   border-radius: 20px;
   font-size: 15px;
   font-weight: 500;
-  box-shadow: 3px 20px -9px;
+  box-shadow: 3px 20px -5px;
   align-items: center;
   margin: 0.9rem 0.2rem 0;
   font-weight: 600;
@@ -406,7 +406,7 @@ body {
 
 .menu-categories-title {
   padding: 1.45rem 1rem 1.25rem 1.2rem;
-  font-weight: 300%;
+  font-weight: lighter;
 }
 
 .menu-categories-under {

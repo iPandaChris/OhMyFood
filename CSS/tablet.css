@@ -51,7 +51,7 @@ body {
   background: #9356DC;
   margin: 0 4px;
   animation: loading 1.5s infinite;
-  box-shadow: 0px 0px 0px 1px 2px #99E2D0;
+  box-shadow: 0px 0px 0px 1px 5px #99E2D0;
 }
 
 .loading-anime-bars:nth-child(2) {
