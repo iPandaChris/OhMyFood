@@ -366,6 +366,13 @@ body {
   line-height: 27px;
 }
 
+.info {
+  color: white;
+  padding: -1.7rem 1.5rem;
+  line-height: 27px;
+  text-decoration: none;
+}
+
 .logo {
   -webkit-filter: invert(1);
   height: 10%;
